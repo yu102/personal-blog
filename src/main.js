@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import '@/components' // 全局注册组件
+
 Vue.config.productionTip = false
 
 new Vue({
