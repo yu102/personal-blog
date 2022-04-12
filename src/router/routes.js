@@ -19,8 +19,8 @@ declare type RouteConfig = {
 
 const routes = [
   {
-    path: '/home',
-    component: () => import('@/views/home/home')
+    path: '/',
+    component: () => import('../views/home/home')
   }
 ]
 
