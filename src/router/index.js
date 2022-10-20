@@ -23,7 +23,6 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
-console.log(routes);
 /*
 完整的导航解析流程：
   1.导航被触发。

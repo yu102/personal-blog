@@ -48,6 +48,9 @@ export default {
 
 <style lang="less" scoped>
 .home-header {
+  z-index: 100;
+  position: sticky;
+  top: 0;
   box-sizing: border-box;
   display: flex;
   padding: 0 20px;
@@ -55,7 +58,7 @@ export default {
   width: 100%;
   height: 60px;
   color: #f4f4f4;
-  background-color: #44474b;
+  background-color: #44474b5c;
   .logo {
     img {
       margin-right: 50px;
@@ -69,6 +72,10 @@ export default {
       display: flex;
       &-item {
         padding: 0 20px;
+        &:hover {
+          color: #2a9fff;
+          cursor: pointer;
+        }
       }
     }
   }
